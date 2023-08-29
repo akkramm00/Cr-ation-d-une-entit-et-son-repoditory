@@ -44,7 +44,13 @@
 
           <p>
             Pour pleinement utiliser la puissance de symfony et Doctrine, anant meme de créer l'entité "User", nous allons installer un pack de sécurité qui va, entre autre, configurer le ficher "security.yaml". <br>
-            Ce fichier se trouve dans le dossier packages, lui-meme dans le dossier config à la racine du projet "config\packages\security.yaml" . Ce fichier va permettre à Doctrine de charger l'entité User et utiliser la bonne propriété qui servira d'indentification, de connaitre le hachage choisis pour le mot de passe et retenir ce  qui nous intéresse.
+            Ce fichier se trouve dans le dossier packages, lui-meme dans le dossier config à la racine du projet "config\packages\security.yaml" . Ce fichier va permettre à Doctrine de charger l'entité User et utiliser la bonne propriété qui servira d'indentification, de connaitre le hachage choisis pour le mot de passe et retenir ce  qui nous intéresse.<br><br>
+            Maintenat, commençons par créer l'entité "User". <br>
+            => Tapez les lignes de commande suivantes dans le terminal situé dans votre projet:<br><br>
+            => $ coposer require symfony/security-bundle <br>
+            => $ php bin/console make:user  <br>
+            => suivre les instruction proposé par le terminal ...
+            
           </p>
         </div>
       </div>
