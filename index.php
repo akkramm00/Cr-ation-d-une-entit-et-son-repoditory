@@ -49,7 +49,9 @@
             => Tapez les lignes de commande suivantes dans le terminal situé dans votre projet:<br><br>
             => $ coposer require symfony/security-bundle <br>
             => $ php bin/console make:user  <br>
-            => suivre les instruction proposé par le terminal ...
+            => suivre les instruction proposé par le terminal ...<br>
+            => $ php bin/console make:migration <br>
+            => $ php bin/console doctrine:migration:migrate (les deux commandes sont systèmatiquement proposées par leterminal.)
             
           </p>
         </div>
