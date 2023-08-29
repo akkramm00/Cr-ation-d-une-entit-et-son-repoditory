@@ -10,8 +10,8 @@
         <div class="col-12 d-flex justify-content-between align-items-center">
          
            <a href="index.php">L'entité</a>
-            <a href="relations.php">Relations</a>
-           <a href=""></a>
+            <a href="repository.php">Repository</a>
+           <a href="UserRepository.php">Userrepository</a>
            <a href=""></a>
   
         </div>
@@ -29,7 +29,7 @@
 
             Alors des questions se posent : Comment manipule-t-on les entités avec Doctrine ?  Quels sont les outils mis à notre disposition ? Peut -on , malgré tout , faire des requêtes un plus poussées ?
           </p>
-          <h2>Les Prérequiq avant la création d'une entité</h2>
+          <h2>Les Prérequis avant la création d'une entité</h2>
           <p>
             Avant tout , on doit s'assurer que notre application peut accéder à notre service mlocal de la base de données, . Pour cela , dans le fichier ".env" qui se trouve dans la racine de projet, on doit décommenter la ligne qui contient la variable d'environnement "DATABASE_URL" avec le service de base de données que nous utilisons et le  paramétrer (voir exemple).
             <br><br>
@@ -51,7 +51,8 @@
             => $ php bin/console make:user  <br>
             => suivre les instruction proposé par le terminal ...<br>
             => $ php bin/console make:migration <br>
-            => $ php bin/console doctrine:migration:migrate (les deux commandes sont systèmatiquement proposées par leterminal.)
+            => $ php bin/console doctrine:migration:migrate (les deux commandes sont systèmatiquement proposées par leterminal.) <br>
+            => Valider lorsque l'invite nous demande si nous sommes sûr de faire ces changements.
             
           </p>
         </div>
