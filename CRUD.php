@@ -20,4 +20,40 @@
     <main class="container">
       <div class="row">
         <div class="col">
-          <h1>Création d'une entité et de son repository</h1>
+          <h1>Création de CRUD </h1>
+          <p>
+            Pour continuer , il va falloir maintenant créer un controller ,. En MVC (Model Vue Controller) c'est le controlleur (le moteur de l'application), qui doit etre utiliser pour modifier les entités. <br> <br>
+             POur créer un CRUD (Create, Read, Update, Delete), on peut utiliser la ligne de commande suivante:
+            <br><br>
+
+            $ php bin/console make:crud User <br>
+            "choose a name for your controller class(e.g UserController) [UserController] "<br>
+            Valider => yes.<br>
+            "Do you want to generate tests for the controller? [Experimental] (yes/no) [no]". <br>
+            On valide "no" <br>  
+
+            Maintenant , le terminal nous emande si nous souhaitons générer des tests. La réponse pâr defaut est non, que nous validons <br>
+        Voici les fichiers que symfony vient de créer :
+            <ul>
+              <li>Created: src/Controller/UserController.php</li>
+              <li>Created: src/Form/UserType.php</li>
+              <li>Created: templates/base./li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+            
+            <br>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
