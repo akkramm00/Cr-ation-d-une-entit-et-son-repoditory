@@ -13,6 +13,7 @@
             <a href="repository.php">Repository</a>
            <a href="UserRepository.php">Userrepository</a>
            <a href="CRUD.php">CRUDmmanip</a>
+          <a href="essentiel.php">Essentiel des Entités</a>
   
         </div>
       </div>
@@ -128,13 +129,7 @@ class UserController extends AbstractController
        return $this->redirectToRoute('app_user_index', [], Response::HTTP_SEE_OTHER);
    }
 }
-            
-        </div>
-      </div>
-    </main>
-  </body>
-</html>
-            
+              
             <br>
           </p>
         </div>

@@ -13,6 +13,7 @@
           <a href="repository.php">Repository</a>
            <a href="UserRepository.php">UserRepository</a>
            <a href="CRUD.pphp">CRUDmanip</a>
+          <a href="essentiel.php">Essentiel des Entités</a>
   
         </div>
       </div>
