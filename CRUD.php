@@ -35,14 +35,20 @@
             Maintenant , le terminal nous emande si nous souhaitons générer des tests. La réponse pâr defaut est non, que nous validons <br>
         Voici les fichiers que symfony vient de créer :
             <ul>
-              <li>Created: src/Controller/UserController.php</li>
-              <li>Created: src/Form/UserType.php</li>
-              <li>Created: templates/base./li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>created: src/Controller/UserController.php</li>
+              <li>created: src/Form/UserType.php</li>
+              <li>created: templates/base.html.twig</li>
+              <li>created: templates/user/-delete_form.html.twig</li>
+              <li>created: templates/user/form.html.twig</li>
+              <li>created: templates/user/edit.html.twig</li>
+              <li>created: templates/user/index.html.twig</li>
+              <li>created: templates/user/new.html.twig</li>
+              <li>created: templates/user/show.html.twig</li>
+           
             </ul>
+          <p>
+            un fichier form qui contient un formulaire pour créer un nouvel utilisateug7
+          </p>
             
         </div>
       </div>
