@@ -11,31 +11,13 @@
          
            <a href="index.php">L'entité</a>
             <a href="repository.php">Repository</a>
-           <a href="UserRepository.php">UserRepository</a>
-           <a href="CRUD.php"CRUDmanip</a>
-
+           <a href="UserRepository.php">Userrepository</a>
+           <a href="CRUD.php">CRUDmmanip</a>
+  
         </div>
       </div>
     </header>
     <main class="container">
       <div class="row">
         <div class="col">
-          <pre>
-           <?php
-namespace App\repository;
-
-use App\Entity\User;
-use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Persistence\managerRegistry;
-use Symfony\Component\Security\Core\Exception\Unsupporteserexception;
-use Symfony\Component\Security\Core\User\PasswordAuthentificatedUserInterface;
-use Symfony\Component\Security\Core\User\PasswordUpgraderInterface;
-
-            
-              
-          </pre>
-       </div>
-      </div>
-    </main>
-  </body>
-</html>
+          <h1>Création d'une entité et de son repository</h1>

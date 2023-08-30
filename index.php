@@ -12,7 +12,7 @@
            <a href="index.php">L'entité</a>
             <a href="repository.php">Repository</a>
            <a href="UserRepository.php">Userrepository</a>
-           <a href=""></a>
+           <a href="CRUD.php">CRUDmanip</a>
   
         </div>
       </div>
